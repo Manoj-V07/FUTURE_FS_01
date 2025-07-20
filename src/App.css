@@ -1,0 +1,20 @@
+section {
+  scroll-margin-top: 8rem;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  overflow-x : hidden;
+}
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#tw{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
