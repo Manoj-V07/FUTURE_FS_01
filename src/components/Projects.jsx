@@ -31,7 +31,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 pt-12 pb-8 bg-slate-800 text-slate-50">
+    <section id="projects" className="bg-slate-800 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 text-slate-50">
       <h1 className="text-center text-slate-50 text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold mb-10">
         ✨MY PROJECTS✨
       </h1>
@@ -86,6 +87,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+    </div>
     </section>
   );
 };

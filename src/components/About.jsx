@@ -43,8 +43,8 @@ const About = () => {
   const skills = ['Web Developer', 'Front-End Developer', 'React Developer', 'UI/UX Enthusiast'];
 
   return (
-    
-    <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 py-12 md:py-20 bg-slate-800 text-slate-50 mx-auto">
+    <section className="bg-slate-800 py-12 md:py-20">
+    <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 text-slate-50">
             <h1 data-aos = "fade-right" className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold mb-10">✨ABOUT ME✨</h1>
 
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-20 mx-auto">
@@ -109,11 +109,9 @@ const About = () => {
             </div>
           ))}
         </div>
-
-        
- </div>
- </div>
-      
+        </div>
+    </div>
+    </section>
   );
 };
 

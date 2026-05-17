@@ -29,7 +29,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 bg-slate-800 text-slate-50">
+    <section className="bg-slate-800 py-12">
+    <div className="max-w-7xl mx-auto px-4 text-slate-50">
       <h2 className="text-[3.5rem] font-bold text-center mb-14">✨MY SKILLS✨</h2>
 
       <div className="grid grid-cols-1 gap-8">
@@ -61,6 +62,7 @@ const Skills = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

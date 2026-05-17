@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App bg-slate-900 text-white scroll-smooth">
       <Header />
-      <main className="pt-20">
+      <main className="pt-4">
         <section id="about" className="scroll-mt-20 min-h-screen">
           <About />
         </section>
